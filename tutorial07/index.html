@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+ <script src="http://www.w3schools.com/lib/w3data.js"></script>
+<div w3-include-html="../assets/pageheader.html"></div>
+
+    <div id="aboutwrap">
+        <div class="container">
+           <div class="row mt">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <h3>
+                        SBP-BRIMS 2017 Tutorial: Anti-discrimination learning: a causal modeling-based framework  
+                        <a href="tutorialseven.pdf"><i class="fa fa-file-o"></i> PDF</a></h3> <small>(Wednesday July 5 at 3:30pm)</small> <br/> <br/>
+                    <table>
+                    	<tr>
+                    	    <td style="padding-right: 1em"><strong>Lu Zhang</strong></td>
+                    	    <td style="padding-right: 1em"><strong>Yongkai Wu</strong></td>
+                    	    <td style="padding-right: 1em"><strong>Xintao Wu</strong></td>
+                    	</tr>
+                    	<tr>
+                    	    <td colspan="3" style="text-align:center"><small>University of Arkansas</small></td>
+                    	</tr>
+                    </table>
+                    <br/>
+                </div>
+
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <p><strong>Abstract:</strong> Anti-discrimination learning is an increasingly
+                    	important task in data mining and machine learning fields.
+                    	Discrimination discovery is the problem of unveiling
+                    	discriminatory practices by analyzing a dataset of historical
+                    	decision records, and discrimination prevention aims to remove
+                    	discrimination by modifying the biased data and/or the
+                    	predictive algorithms. Discrimination is causal, which means that
+                    	to prove discrimination one needs to derive a causal relationship
+                    	rather than an association relationship. Although it is wellknown
+                    	that association does not mean causation, the gap between
+                    	association and causation is not paid enough attention by many
+                    	researchers. The aim of this tutorial is to point out the limitations
+                    	existing in current association-based approaches, introduce a
+                    	causal modeling-based framework for anti-discrimination
+                    	learning, and suggest potential future research directions.
+                    </p>
+                    <p><strong>IMPORTANCE AND TARGET AUDIENCE:</strong> Discrimination discovery and prevention have been an
+                    	active research area in data science due to increasing worries of
+                    	discrimination as data analytic technologies could be used to
+                    	digitally unfairly treat unwanted groups, such as customers,
+                    	employees, tenants, or recipients of credit. In 2014, U.S.
+                    	President Obama called for a 90-day review of data collecting
+                    	and analyzing practices. An important conclusion from the
+                    	resulting report [1] is that "Big data technologies can cause
+                    	societal harms beyond damages to privacy, such as
+                    	discrimination against individuals and groups". In May 2016,
+                    	the Executive Office of the President made recommendations
+                    	to "support research into mitigating algorithmic discrimination,
+                    	building systems that support fairness and accountability, and
+                    	developing strong data ethics frameworks" [2]. How to ensure
+                    	non-discrimination in social computing and behavioral
+                    	modeling & prediction is an important and challenging topic.
+                    </p>
+                    <p>The tutorial targets the researchers interested in studying
+                    	the issue of discovering and preventing discrimination caused
+                    	by data mining and machine learning algorithms from the
+                    	causal modeling perspective. The audience is assumed to be
+                    	familiar with the fundamental concepts in data mining and
+                    	machine learning, especially in predictive learning. No special
+                    	requirement is needed on software and hardware.
+                    </p>
+                    <p><strong>OUTLINE:</strong> The tutorial is organized as six parts, including an
+                    	introduction part, a literature review part, three main technical
+                    	parts, and a concluding part. The tutorial is based in part on our
+                    	position paper [3].<br/>
+                    <ol>
+                    	<li>Introduction, motivation and challenges</li>
+                    	<ol>
+                    		<li>Legal definitions and principles of discrimination</li>
+                    		<li>Motivation of anti-discrimination learning</li>
+                    		<li>Challenge in discrimination discovery and prevention</li>
+                    	</ol>
+                    	<li>Association-based anti-discrimination literature review</li>
+                    	<ol>
+                    		<li>Approaches for discrimination discovery</li>
+                    		<li>Approaches for discrimination prevention</li>
+                    		<li>Gap between association and causation</li>
+                    	</ol>
+                    	<li>Causal modeling-based anti-discrimination framework</li>
+                    	<ol>
+                    		<li>Causal modeling background</li>
+                    		<li>Discrimination categorization and anti-discrimination
+                    			framework overview</li>
+                    	</ol>
+                    	<li>System-level discrimination discovery and removal</li>
+                    	<ol>
+                    		<li>Modeling of direct and indirect discrimination</li>
+                    		<li>Quantitative discrimination criterion</li>
+                    		<li>Discrimination removal algorithms</li>
+                    		<li>Ensuring non-discrimination in prediction</li>
+                    	</ol>
+                    	<li>Group and individual-level discrimination</li>
+                    	<ol>
+                    		<li>Approach for group-level direct discrimination</li>
+                    		<li>Approach for individual-level direct discrimination</li>
+                    	</ol>
+                    	<li>Challenges and directions for future research</li>
+                    </ol>
+                   </p>
+                   <p><strong>TUTORS' SHORT BIO:</strong> Dr. Lu Zhang is a postdoctoral researcher in the Computer
+                   	Science and Computer Engineering Department, University of
+                   	Arkansas. He received the BEng degree in computer science
+                   	and engineering from the University of Science and
+                   	Technology of China, in 2008, and the PhD degree in computer
+                   	science from Nanyang Technological University, Singapore in
+                   	2013. His research interests include data mining algorithms,
+                   	discrimination-aware data mining, and causal inference.
+                   	</p>
+                   	<p>Yongkai Wu is a Ph.D. student in the Department of
+                   		Computer Science and Computer Engineering at the University
+                   		of Arkansas.
+                   	</p>
+                   	<p>Dr. Xintao Wu is a Professor in the Department of
+                   		Computer Science and Computer Engineering at the University
+                   		of Arkansas. His major research interests include data privacy,
+                   		bioinformatics and discrimination-aware data mining.
+                   	</p>
+                   	<p><strong>REFERENCES</strong><br/>
+                   		[1] Big data: Seizing opportunities, preserving values. Whilte House (2014)<br/>
+                   		[2] Munoz, C., Smith, M., Patil, D.: Big data: A report on algorithmic systems, opportunity, and 
+                   		civil rights. Executive Office of the President (2016)<br/>
+                   		[3] Zhang, L., Wu, X.: Anti-discrimination learning: a causal modeling based
+                   			framework, JDSA, to appear.<br/>
+                    </p>
+               </div><!-- /row -->
+        </div><!-- /container -->
+    </div><!-- /aboutwrap -->
+
+
+    <div id="portfoliowrap">
+        <div class="container">
+            <div class="row mt centered">
+            &nbsp;
+            </div><!-- /row -->
+        </div><!-- /container -->
+    </div><!-- /aboutwrap -->
+
+<!-- start: Footer -->
+    <div id="footer">
+
+        <!-- start: Container -->
+        <div class="container">
+
+            <!-- start: Row -->
+            <div class="row">
+
+            <!-- start: Latest Tweets -->
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                    <h3>&nbsp;</h3>
+ 					<a class="twitter-timeline"  href="https://twitter.com/hashtag/sbpbrims" data-widget-id="824719817894756353">#sbpbrims Tweets</a>
+					<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+                    <div class="clear"></div>
+
+                </div>
+                <!-- end: Latest Tweets -->
+
+                <!-- start: Photo Stream -->
+                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+
+                    <h3>Photos</h3>
+                    <div class="flickr-widget">
+                        <script type="text/javascript" src="http://www.flickr.com/badge_code_v2.gne?count=10&display=random&size=s&layout=x&source=all_tag&tag=sbp-brims"></script>
+                        <div class="clear"></div>
+                    </div>
+
+                </div>
+                <!-- end: Photo Stream -->
+
+                <!-- start: Follow Us -->
+                <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 centered">
+
+                    <h3>Connect</h3>
+
+                    <div id="social-r" class="tooltips">
+                        <a href="https://www.facebook.com/SBP-BRiMS-Conference-155964778120367/" rel="tooltip" title="Facebook" class="facebook"><i class="fa fa-facebook fa-4x fa-fw"></i></a>
+                        <a href="https://github.com/sbp-brims" rel="tooltip" title="Github"><i class="fa fa-github fa-4x fa-fw"></i></a>
+                        <a href="https://twitter.com/SBP_BRiMS" rel="tooltip" title="Twitter" class="twitter"><i class="fa fa-twitter fa-4x fa-fw"></i></a>
+                        <a href="mailto:sbpbrims@andrew.cmu.edu" rel="tooltip" title="Contact Us"><i class="fa fa-envelope fa-4x fa-fw"></i></a>
+                    </div>
+
+                </div>
+                <!-- end: Follow Us -->
+
+            </div>
+            <!-- end: Row -->
+
+        </div>
+        <!-- end: Container  -->
+
+    </div>
+    <!-- end: Footer -->
+
+    <!-- start: Footer Menu -->
+    <div id="under-footer" class="hidden-tablet hidden-phone">
+
+        <!-- start: Container -->
+        <div class="container">
+
+            <!-- start: Row -->
+            <div class="row">
+
+                <!-- start: Footer Menu Logo -->
+                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                    <div id="under-footer-logo">
+                        <a class="brand" href="#">SBP-BRiMS<span>2017</span>.</a>
+                    </div>
+                </div>
+                <!-- end: Footer Menu Logo -->
+
+                <!-- start: Footer Menu Links-->
+                <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9">
+
+                    <div id="under-footer-copyright">
+                        &copy; 2013-2017, <a href="http://SBP-BRiMS.org">SBP-BRiMS</a>. Maintained by <a href="http://ualr.edu/tlwilliams8/">Therese Williams</a>
+                    </div>
+
+                </div>
+                <!-- end: Footer Menu Links-->
+
+                <!-- start: Footer Menu Back To Top -->
+                <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+
+                    <div id="under-footer-back-to-top">
+                        <a href="#"><i class="fa"></i></a>
+                    </div>
+
+                </div>
+                <!-- end: Footer Menu Back To Top -->
+
+            </div>
+            <!-- end: Row -->
+
+        </div>
+        <!-- end: Container  -->
+
+    </div>
+    <!-- end: Footer Menu -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/js/classie.js"></script>
+    <script src="../assets/js/bootstrap.min.js"></script>
+    <script src="../assets/js/smoothscroll.js"></script>
+    <script src="../assets/js/jquery.stellar.min.js"></script>
+    <script src="../assets/js/fancybox/jquery.fancybox.js"></script>
+    <script src="../assets/js/main.js"></script>
+    <script src="../assets/js/slider.js"></script>
+    <script src="../assets/js/jquery.cslider.js"></script>
+
+        <script>
+        $(function(){
+            $.stellar({
+                horizontalScrolling: false,
+                verticalOffset: 40
+            });
+
+            $('#da-slider').cslider({
+                autoplay    : true,
+                bgincrement : 0
+            });
+
+        });
+        </script>
+
+        <script type="text/javascript">
+      $(function() {
+        //    fancybox
+          jQuery(".fancybox").fancybox();
+      });
+       </script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-36899667-2', 'SBP-BRiMS.org');
+      ga('send', 'pageview');
+
+    </script>
+</div>
+<script>
+w3IncludeHTML();
+</script>
+</body>
+</html>
